@@ -1,0 +1,23 @@
+{
+  "name": "assignment-6-eikcaj16",
+  "version": "1.0.0",
+  "description": "*Yiqing Huang 001525629 huang.yiqin@northeastern.edu*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/main.scss dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2022/assignment-6-eikcaj16.git"
+  },
+  "author": "Yiqing Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2022/assignment-6-eikcaj16/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2022/assignment-6-eikcaj16#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}
