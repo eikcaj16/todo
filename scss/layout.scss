@@ -1,0 +1,19 @@
+/**
+ ** layout.scss
+ ** INFO6150 Assignment 6
+ ** Yiqing Huang
+ */
+
+//basic layout
+body {
+  padding: 25px;
+}
+
+.todo_list {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  position: relative;
+  height: 800px;
+  overflow: scroll;
+}

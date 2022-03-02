@@ -1,0 +1,30 @@
+/**
+ ** themes.scss
+ ** INFO6150 Assignment 6
+ ** Yiqing Huang
+ */
+
+//set up basic style
+h1 {
+  font: 72px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "HeitiSC", "WenQuanYi Micro Hei", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+}
+
+p {
+  font: 28px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "HeitiSC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+button {
+  font: 18px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "HeitiSC", "WenQuanYi Micro Hei", sans-serif;
+  font-weight: bold;
+}
+
+input[type=text] {
+  width: 207px;
+}
+
+input[type=datetime-local] {
+  width: 210px;
+}

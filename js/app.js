@@ -9,8 +9,13 @@ const createListBlock = (title, description, datetime, checked) => {
 
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
+    checkbox.id = list_block.id + "_checkbox";
     checkbox.checked = checked;
     list_block.appendChild(checkbox);
+
+    // const label = document.createElement("label");
+    // label.htmlFor = checkbox.id;
+    // list_block.appendChild(label);
 
     const span = document.createElement('span');
     span.textContent = title;
@@ -35,6 +40,7 @@ const createListBlock = (title, description, datetime, checked) => {
 const createDetailBlock = (title, description, datetime, list_block) => {
     const detail_block = document.createElement("div");
     detail_block.id = list_block.id + "_detail";
+    detail_block.className = "detail_block";
 
     // const title_div = document.createElement("div");
     // title_div.className = "title_div";
@@ -85,13 +91,6 @@ const init = () => {
 }
 
 
-// const form_apply_btn = document.getElementById("form_submit_btn");
-// form_apply_btn.addEventListener('submit', function (event) {
-//     event.preventDefault();
-//     console.log(document.getElementById("form_title").title);
-//     console.log("here");
-// })
-
 let count = 0;  // the global list element counter (including the deleted elements)
 
 
@@ -114,5 +113,11 @@ form.addEventListener('submit', event => {
 
 const add_btn = document.getElementById("add_btn");
 add_btn.addEventListener('click', function () {
-    form.style.display = 'block';
+    if (form.style.display !== 'none') {
+        add_btn.textContent = "+";
+        form.style.display = 'none';
+    } else {
+        add_btn.textContent = "×";
+        form.style.display = 'block';
+    }
 })

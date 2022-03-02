@@ -1,0 +1,88 @@
+/**
+ ** ui_features.scss
+ ** INFO6150 Assignment 6
+ ** Yiqing Huang
+ */
+
+
+//lis style
+.lists {
+  margin-left: 60px;
+  margin-right: 60px;
+
+  .list_elem {
+    font-size: 20px;
+    color: #313131;
+    border-bottom: 2px solid darkgray;
+  }
+
+  input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+  }
+
+  button {
+    font: 18px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "HeitiSC", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: bold;
+
+    color: #313131;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+  }
+
+  .detail_block {
+    color: #6e6e6e;
+    
+    margin-left: 30px;
+    
+    .datetime_div {
+      font-size: 15px;
+    }
+
+    .desc_div {
+      font-size: 17px;
+    }
+  }
+}
+
+//panel style
+.add_panel {
+  fieldset {
+    margin-left: 400px;
+    border-color: transparent;
+    font: 14px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "HeitiSC", "WenQuanYi Micro Hei", sans-serif;
+  }
+
+  .submit_btn {
+    button {
+      font: 14px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "HeitiSC", "WenQuanYi Micro Hei", sans-serif;
+      margin-left: 550px;
+    }
+  }
+
+  .add_btn_div {
+    margin-left: 600px;
+
+    button {
+      font-size: 40px;
+      font-weight: bolder;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+    }
+
+    button:active {
+      color: cadetblue;
+    }
+  }
+
+
+}
+

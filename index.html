@@ -6,30 +6,38 @@
     <link rel="stylesheet" href="dist/main.css">
     <script async src="js/app.js"></script>
 </head>
+<!--run init function when loading body-->
 <body onload="init()">
 <div class="todo_list">
-    <h1>TODO List</h1>
+    <h1>todos</h1>
     <div class="add_panel">
-        <button id="add_btn">+</button>
+        <div class="add_btn_div">
+            <button id="add_btn">+</button>
+        </div>
         <form id="info_form" action="#" onsubmit="return false;" method="post" style="display: none">
             <fieldset>
                 <!--title-->
                 <label for="form_title">Title</label>
+                <br>
                 <input type="text" id="form_title" required>
                 <br>
                 <!--description-->
                 <label for="form_description">Description</label>
+                <br>
                 <textarea cols="20" rows="5" wrap="hard" id="form_description" placeholder="description ..."></textarea>
                 <br>
                 <!--date and time-->
                 <label for="form_datetime">Date/Time</label>
+                <br>
                 <input type="datetime-local" id="form_datetime" required>
             </fieldset>
 
-            <button type="submit" id="form_submit_btn">Apply</button>
+            <div class="submit_btn">
+                <button type="submit" id="form_submit_btn">Apply</button>
+            </div>
         </form>
     </div>
-    <p id="lists"></p>
+    <p id="lists" class="lists"></p>
 </div>
 </body>
 </html>
