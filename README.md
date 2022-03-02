@@ -49,5 +49,6 @@
 
 
 ## Usage
-
-**[TODO]**
+1. Install `sass` according to `packages.json`
+2. run sass `sass scss/main.scss dist/main.css`
+3. Start/View `index.html`
