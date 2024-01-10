@@ -2,7 +2,7 @@
 
 *Yiqing Huang 001525629 huang.yiqin@northeastern.edu*
 
-
+![demo](https://github.com/eikcaj16/todo/assets/23066154/bff7ab4b-ecd0-4195-a8c7-5e3089a0fd00)
 
 ## Requirements
 
@@ -52,3 +52,4 @@
 1. Install `sass` according to `packages.json`
 2. run sass `sass scss/main.scss dist/main.css`
 3. Start/View `index.html`
+
